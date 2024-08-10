@@ -43,7 +43,6 @@ scene.add(hemiLight);
 
 function animate(t  = 0){
     requestAnimationFrame(animate);
-    // mesh.rotation.y = t * 0.0001;
     renderer.render(scene, camera);
     controls.update();
 }
